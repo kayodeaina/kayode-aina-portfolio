@@ -10,7 +10,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 import project1Image from "./assets/project1-cybersecurity.png";
 import project2Image from './assets/bank_image1.png';
 import project3Image from './assets/Retinal_image.png';
-import project4Image from './assets/gym_image.png';
+import project4Image from './assets/Gym_image.png';
 
 /* =========================================
    MAIN APP COMPONENT
