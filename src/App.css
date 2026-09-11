@@ -1,0 +1,1152 @@
+.portfolio {
+  min-height: 100vh;
+  background: #243447;
+  color: #f8fafc;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 4%;
+}
+
+.logo img {
+    width: 190px;
+    height: auto;
+    display: block;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 24px;
+}
+
+.navbar a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+}
+/*eight paste code */
+/* Download CV button */
+.cv-button {
+    background: #075da8;
+    color: #ffffff !important;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.cv-button:hover {
+    background: #064f8f;
+}
+.hero {
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 8%;
+  max-width: 900px;
+}
+
+.intro {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #94a3b8;
+}
+/* =========================================
+   MAIN NAME
+   Styles "Kayode Aina"
+   ========================================= */
+.hero h1 {
+  /* Large main heading */
+  font-size: 64px;
+
+  /* Makes the name visible on dark background */
+  color: #f8fafc;
+
+  /* Controls spacing inside the text itself */
+  line-height: 1.1;
+
+  /* Adds clear space below the name */
+  margin: 0 0 20px;
+}
+
+/* =========================================
+   PROFESSIONAL TITLE
+   Styles "Software & Application Developer"
+   ========================================= */
+.hero h2 {
+  /* Professional title size */
+  font-size: 30px;
+
+  /* Softer colour than the main name */
+  color: #cbd5e1;
+
+  /* Adds extra separation above the title */
+  margin: 10px 0 20px;
+
+  /* Keeps the text comfortably spaced */
+  line-height: 1.3;
+}
+.hero-description {
+  font-size: 20px;
+  line-height: 1.7;
+  max-width: 750px;
+  color: #94a3b8;
+}
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+}
+.hero-buttons a {
+  padding: 12px 20px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #f8fafc;
+}
+.hero-buttons a:hover {
+  background: #f8fafc;
+  color: #0f172a;
+}
+/* =========================================
+   ABOUT SECTION
+   Styles the main About Me section
+   ========================================= */
+.about {
+  /* Adds space inside the section:
+     100px top/bottom and 8% left/right */
+  padding: 60px 8%;
+  /* Gives the About section a slightly
+     different dark background from Home */
+  background: #111827;
+  /* Makes the section occupy at least
+     60% of the browser screen height */
+  min-height: auto;
+  /* Uses Flexbox for positioning */
+  display: flex;
+  /* Vertically centres the About content */
+  align-items: center;
+}
+/* =========================================
+   ABOUT CONTENT CONTAINER
+   Controls the width and position of content
+   ========================================= */
+.section-container {
+  /* Prevents text from becoming too wide
+     on large computer screens */
+  max-width: 1200px;
+
+  /* Centres the container horizontally */
+  margin: 0 auto;
+
+  /* Allows the container to use the
+     available width up to 900px */
+  width: 100%;
+}
+/* =========================================
+   SECTION LABEL
+   Styles the small "ABOUT ME" text
+   ========================================= */
+.section-label {
+  /* Light grey-blue text */
+  color: #94a3b8;
+  /* Sets the text size */
+  font-size: 16px;
+  /* Makes the label slightly bold */
+  font-weight: 600;
+  /* Displays the label in uppercase */
+  text-transform: uppercase;
+  /* Adds spacing between letters */
+  letter-spacing: 2px;
+  /* Creates space below the label */
+  margin-bottom: 12px;
+  text-align: center;
+}
+/* =========================================
+   ABOUT HEADING
+   Styles "Building technology with purpose."
+   ========================================= */
+.about h2 {
+  /* Makes the heading clearly visible
+     against the dark background */
+  color: #f8fafc;
+  /* Makes the heading large */
+  font-size: 40px;
+  /* Removes top margin and adds
+     24px space below the heading */
+  margin: 0 0 24px;
+  text-align: center;
+}
+/* =========================================
+   ABOUT PARAGRAPHS
+   Keeps paragraph text aligned from the left
+   for easier professional reading
+   ========================================= */
+.about p {
+  /* Sets the paragraph text colour */
+  color: #cbd5e1;
+  /* Sets a comfortable reading size */
+  font-size: 18px;
+  /* Adds space between lines */
+  line-height: 1.8;
+  /* Controls how wide each paragraph can become */
+  max-width: 800px;
+  /* Aligns every line from the same left position */
+  text-align: left;
+  /* Adds some space below each paragraph */
+  margin-bottom: 16px;
+}
+/* =========================================
+   SKILLS SECTION
+   Controls the overall Skills area
+   ========================================= */
+.skills {
+  /* Adds space inside the Skills section */
+  padding: 60px 8%;
+
+  /* Main dark background for this section */
+  background: #0f172a;
+}
+
+/* =========================================
+   SKILLS MAIN HEADING
+   Styles "Technical Skills & Technologies"
+   ========================================= */
+.skills h2 {
+  /* Makes the heading visible on dark background */
+  color: #f8fafc;
+
+  /* Makes the heading large and prominent */
+  font-size: 40px;
+
+  /* Adds space underneath the heading */
+  margin: 0 0 40px;
+}
+
+
+/* =========================================
+   SKILLS GRID
+   Organises skill cards into columns
+   ========================================= */
+.skills-grid {
+  /* Uses CSS Grid layout */
+  display: grid;
+
+  /* Automatically creates responsive columns.
+     Each card will be at least 250px wide. */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+  /* Creates space between the cards */
+  gap: 24px;
+}
+/* =========================================
+   INDIVIDUAL SKILL CARD
+   Creates the appearance of each skill box
+   ========================================= */
+.skill-card {
+  /* Slightly different background from the section */
+  background: #111827;
+  /* Adds space inside each card */
+  padding: 36px;
+  /* Rounds the corners of each card */
+  border-radius: 30px;
+  /* Adds a subtle border around each card */
+  border: 1px solid #334155;
+}
+/* =========================================
+   SKILL CARD TITLE
+   Example: Frontend Development
+   ========================================= */
+.skill-card h3 {
+  /* Makes the category title visible */
+  color: #f8fafc;
+  /* Sets the category title size */
+  font-size: 24px;
+  /* Removes top margin and adds space below */
+  margin: 0 0 14px;
+}
+/* =========================================
+   SKILL CARD TEXT
+   Example: React, Angular, TypeScript...
+   ========================================= */
+.skill-card p {
+  /* Softer colour for the technology names */
+  color: #cbd5e1;
+
+  /* Sets a readable text size */
+  font-size: 18px;
+
+  /* Adds comfortable spacing between lines */
+  line-height: 1.7;
+
+  /* Removes the browser's default paragraph margin */
+  margin: 0;
+}
+/* =========================================
+   PROJECTS SECTION
+   Controls the overall Projects area
+   ========================================= */
+.projects {
+  /* Adds space inside the Projects section */
+  padding: 100px 3%;
+  /* Uses a slightly different dark background */
+  background: #111827;
+}
+/* =========================================
+   PROJECTS MAIN HEADING
+   Styles "Selected Projects"
+   ========================================= */
+.projects h2 {
+  /* Makes the heading bright and visible */
+  color: #f8fafc;
+
+  /* Makes the heading prominent */
+  font-size: 40px;
+
+  /* Adds spacing below the heading */
+  margin: 0 0 20px;
+  text-align: center;
+}
+/* =========================================
+   PROJECTS INTRODUCTION
+   Styles the short paragraph above the cards
+   ========================================= */
+.projects-intro {
+  /* Uses softer text colour */
+  color: #334155;
+  /* Sets comfortable reading size */
+  font-size: 18px;
+  /* Improves line spacing */
+  line-height: 1.7;
+  /* Limits the width for easier reading */
+  max-width: 800px;
+  /* Adds space below the introduction */
+  margin-bottom: 40px;
+}
+/* =========================================
+   PROJECTS GRID
+   Organises project cards on the page
+   ========================================= */
+.projects-grid {
+  /* Uses CSS Grid layout */
+  display: grid;
+  /* Creates responsive project columns */
+  grid-template-columns: repeat(2, 1fr);
+  /* Adds space between project cards */
+  gap: 24px;
+  align-items: stretch;
+}
+/* =========================================
+   PROJECT CARD
+   Styles each individual project
+   ========================================= */
+.project-card > *{
+  /* Gives each card a dark background */
+  background: #0f172a;
+  /* Adds space inside the card */
+  padding: 18px;
+  /* Rounds the corners */
+  border-radius: 10px;
+  /* Adds a subtle border */
+  border: 1px solid #334155;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+.project-technologies {
+    background: #0f172a;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #334155;
+    text-align: left;
+}
+.project-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.project-links a {
+    padding: 10px 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    color: #f8fafc;
+    text-decoration: none;
+    font-size: 14px;
+}
+.project-links a:hover {
+    background: #f8fafc;
+    color: #0f172a;
+}
+.project-links{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.project-type {
+    margin-bottom: 12px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.project-card h3 {
+    margin: 0 0 16px;
+    text-align: center;
+}
+.project-description {
+    margin-bottom: 24px;
+    text-align: left;
+}
+.project-technologies {
+    justify-content: flex-start;
+}
+/* =========================================
+   PROJECT TYPE
+   Example: MSc Research Project
+   ========================================= */
+.project-type {
+  /* Uses a softer colour */
+  color: #94a3b8;
+  /* Makes the label smaller */
+  font-size: 14px;
+  /* Makes the label stand out slightly */
+  font-weight: 600;
+  /* Converts text to uppercase */
+  text-transform: none;
+  /* Adds spacing between letters */
+  letter-spacing: 1.5px;
+  /* Adds space below the label */
+  margin-bottom: 12px;
+}
+/* =========================================
+   PROJECT TITLE
+   Styles the project name
+   ========================================= */
+.project-card h3 {
+  /* Makes the project title bright */
+  color: #f8fafc;
+  /* Sets the title size */
+  font-size: 22px;
+  /* Improves readability across multiple lines */
+  line-height: 1.4;
+
+  /* Adds space below the title */
+  margin: 0 0 16px;
+}
+/* =========================================
+   PROJECT DESCRIPTION
+   Styles the explanation of the project
+   ========================================= */
+.project-description {
+  /* Uses softer text colour */
+  color: #cbd5e1;
+  /* Sets readable paragraph size */
+  font-size: 16px;
+  /* Adds comfortable line spacing */
+  line-height: 1.7;
+  /* Adds space below the description */
+  margin-bottom: 24px;
+}
+/* =========================================
+   PROJECT TECHNOLOGIES
+   Holds the technology badges
+   ========================================= */
+.project-technologies {
+  /* Places badges beside each other */
+  display: flex;
+  /* Allows badges to move onto a new line */
+  flex-wrap: wrap;
+  /* Adds space between badges */
+  gap: 10px;
+  margin-top: auto;
+}
+/* =========================================
+   TECHNOLOGY BADGES
+   Styles Python, DITA XML, NLP, etc.
+   ========================================= */
+.project-technologies span {
+  /* Gives each badge a subtle background */
+  background: #1e293b;
+  /* Makes badge text easy to read */
+  color: #cbd5e1;
+  /* Adds space inside each badge */
+  padding: 7px 11px;
+  /* Gives the badge rounded corners */
+  border-radius: 6px;
+  /* Makes badge text slightly smaller */
+  font-size: 14px;
+  width: auto;
+}
+/* ==========================================
+   EXPERIENCE SECTION
+========================================== */
+.experience {
+    padding: 6dvh 8%;
+    background: #111827;
+}
+.experience h2 {
+    color: #f8fafc;
+    font-size: 40px;
+    margin: 0 0 40px;
+}
+.experience-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.experience-card {
+    background: #0f172a;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #334155;
+}
+.experience-card h3 {
+    color: #f8fafc;
+    font-size: 22px;
+    margin: 0 0 10px;
+}
+.experience-company {
+    color: #94a3b8;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.experience-description {
+    color: #cbd5e1;
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: left;
+    margin: 0;
+}
+/* ==========================================
+   CONTACT SECTION
+========================================== */
+.contact {
+    padding: 60px 8%;
+    background: #0f172a;
+}
+.contact h2 {
+    color: #f8fafc;
+    font-size: 40px;
+    margin: 0 0 20px;
+}
+.contact-intro {
+    color: #cbd5e1;
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 750px;
+    margin-bottom: 30px;
+}
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+.contact-links a {
+    padding: 12px 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    color: #f8fafc;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.contact-links a:hover {
+    background: #f8fafc;
+    color: #0f172a;
+}
+/* last from the previous one */
+/* =========================================================
+   LIGHT BLUE PORTFOLIO THEME
+   ========================================================= */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #cfeeff;
+    color: #0b2a55;
+}
+/* Main application */
+.app,
+.App {
+    background: #cfeeff;
+    color: #0b2a55;
+}
+/* NAVIGATION */
+nav,
+.navbar {
+    background: #cfeeff;
+    color: #0b2a55;
+}
+nav a,
+.navbar a,
+.nav-links a {
+    color: #0b2a55;
+}
+nav a:hover,
+.navbar a:hover,
+.nav-links a:hover {
+    color: #0067b9;
+}
+/* ALL MAIN SECTIONS */
+.home,
+.hero,
+.about,
+.skills,
+.projects,
+.experience,
+.contact {
+    background: #cfeeff;
+}
+/* SECTION LABELS */
+.section-label {
+    color: #0873bd;
+}
+/* MAIN HEADINGS */
+h1,
+h2,
+h3,
+.home h1,
+.home h2,
+.hero h1,
+.hero h2,
+.about h2,
+.skills h2,
+.projects h2,
+.experience h2,
+.contact h2 {
+    color: #082b5c;
+}
+/* NORMAL TEXT */
+p,
+.about p,
+.hero p,
+.home p,
+.contact-intro,
+.experience-description {
+    color: #263f5f;
+}
+/* SKILL CARDS */
+.skill-card,
+.skills-card {
+    background: #f7fcff;
+    border: 1px solid #b8dff4;
+    color: #0b2a55;
+}
+.skill-card h3,
+.skills-card h3 {
+    color: #082b5c;
+}
+/* PROJECT CARDS */
+.project-card {
+    background: #f7fcff;
+    border: 1px solid #b8dff4;
+    color: #0b2a55;
+    box-shadow: 0 8px 24px rgba(8, 43, 92, 0.08);
+}
+.project-card h3 {
+    color: #082b5c;
+}
+.project-card p {
+    color: #263f5f;
+}
+/* PROJECT TYPE */
+.project-type {
+    color: #0873bd;
+}
+/* TECHNOLOGY BADGES */
+.project-technologies span {
+    background: #d9efff;
+    color: #075b9b;
+    border: 1px solid #b7dcf6;
+}
+/* PROJECT BUTTONS */
+.project-links a {
+    background: #075da8;
+    border: 1px solid #075da8;
+    color: #ffffff;
+}
+.project-links a:hover {
+    background: #ffffff;
+    color: #075da8;
+}
+/* EXPERIENCE CARDS */
+.experience-card {
+    background: #f7fcff;
+    border: 1px solid #b8dff4;
+    box-shadow: 0 8px 24px rgba(8, 43, 92, 0.08);
+}
+.experience-card h3 {
+    color: #082b5c;
+}
+.experience-company {
+    color: #0873bd;
+}
+.experience-description {
+    color: #263f5f;
+}
+/* GENERAL BUTTONS */
+button,
+.btn,
+.primary-button {
+    background: #075da8;
+    color: #ffffff;
+    border-color: #075da8;
+}
+button:hover,
+.btn:hover,
+.primary-button:hover {
+    background: #064b86;
+}
+/* HERO LINKS / BUTTONS */
+.hero a,
+.home a {
+    border-color: #075da8;
+}
+/* CONTACT BUTTONS */
+.contact-links a {
+    background: #075da8;
+    border: 1px solid #075da8;
+    color: #ffffff;
+}
+.contact-links a:hover {
+    background: #ffffff;
+    color: #075da8;
+}
+/* FOOTER */
+footer,
+.footer {
+    background: #cfeeff;
+    color: #263f5f;
+    border-top: 1px solid #b8dff4;
+}
+footer a,
+.footer a {
+    color: #082b5c;
+}
+/* second paste code*/
+/* ==========================================
+   LIGHT THEME FINAL FIXES
+   ========================================== */
+/* Remove remaining dark hero/background block */
+.home,
+.hero,
+.home-content,
+.hero-content {
+    background-color: transparent;
+}
+/* SKILLS - make text readable */
+.skills p,
+.skill-card p,
+.skills-card p {
+    color: #365675;
+}
+/* PROJECTS - convert cards completely to light */
+.project-card,
+.project-card > div {
+    background: #f7fcff;
+    color: #0b2a55;
+    border-color: #b8dff4;
+}
+.project-card h3,
+.project-card h4 {
+    color: #082b5c;
+}
+.project-card p {
+    color: #365675;
+}
+.project-type {
+    color: #0873bd;
+}
+/* Project technology area */
+.project-technologies {
+    background: transparent !important;
+}
+.project-technologies span {
+    background: #d9efff;
+    color: #075b9b;
+    border: 1px solid #b7dcf6;
+}
+/* Project links area */
+.project-links {
+    background: transparent !important;
+}
+.project-links a {
+    background: #075da8;
+    color: #ffffff;
+    border: 1px solid #075da8;
+}
+.project-links a:hover {
+    background: #ffffff;
+    color: #075da8;
+}
+/* third  paste code*/
+/* ==========================================
+   FORCE PROJECT CARDS TO LIGHT THEME
+   ========================================== */
+.projects .project-card,
+.projects .project-card > *,
+.projects .project-content,
+.projects .project-info,
+.projects .project-description {
+    background: #f7fcff !important;
+    color: #263f5f !important;
+    border-color: #b8dff4 !important;
+}
+.projects .project-card h3,
+.projects .project-card h4,
+.projects .project-card .project-title {
+    color: #082b5c !important;
+}
+.projects .project-card p {
+    color: #365675 !important;
+}
+.projects .project-type {
+    color: #0873bd !important;
+}
+.projects .project-technologies {
+    background: #f7fcff !important;
+}
+.projects .project-technologies span {
+    background: #d9efff !important;
+    color: #075b9b !important;
+    border: 1px solid #b7dcf6 !important;
+}
+.projects .project-links {
+    background: #f7fcff !important;
+}
+.projects .project-links a {
+    background: #075da8 !important;
+    color: white !important;
+}
+/* Fourth paste code */
+/* ==========================================
+   FORCE HOME / HERO TO LIGHT THEME
+   ========================================== */
+.home,
+.hero,
+#home,
+.home-section,
+.hero-section,
+.home-container,
+.hero-container,
+.home-content,
+.hero-content {
+    background: #cfeeff !important;
+    color: #0b2a55 !important;
+}
+.home h1,
+.hero h1,
+.home h2,
+.hero h2 {
+    color: #082b5c !important;
+}
+.home p,
+.hero p {
+    color: #263f5f !important;
+}
+.home a,
+.hero a {
+    background: #075da8 !important;
+    color: #ffffff !important;
+    border: 1px solid #075da8 !important;
+}
+.home a:hover,
+.hero a:hover {
+    background: #ffffff !important;
+    color: #075da8 !important;
+}
+/* Fifth paste code */
+/* REMOVE REMAINING DARK HERO BLOCK */
+.home::before,
+.home::after,
+.hero::before,
+.hero::after,
+.home-content::before,
+.home-content::after,
+.hero-content::before,
+.hero-content::after {
+    background: transparent !important;
+    display: none !important;
+}
+/* Sixth paste code */
+/* Fix remaining dark area around the hero */
+main {
+    background: #cfeeff !important;
+}
+/*seventh paste code */
+/* =========================================
+   FOOTER
+========================================= */
+.footer {
+    background: #cfeeff;
+    color: #0b2a55;
+    text-align: center;
+    padding: 24px 8%;
+    border-top: 1px solid #b8dff4;
+}
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* =========================================
+   HERO TWO-COLUMN LAYOUT
+========================================= */
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.hero-left {
+    flex: 1;
+    text-align: left;
+}
+.hero-right {
+    flex: 0 0 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform:translateX(40px);
+}
+.profile-circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #eaf7ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+}
+/* Social links underneath profile circle */
+.hero-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 18px;
+}
+.hero-socials a {
+    color: #082b5c !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-socials a:hover {
+    color: #0067b9 !important;
+    background: transparent !important;
+}
+/* Compact project technology badges */
+.projects .project-technologies span {
+    display: inline-flex !important;
+    width: fit-content !important;
+    flex: 0 0 auto !important;
+}
+.projects .project-technologies {
+    flex-direction: row !important;
+    align-items: flex-start !important;
+}
+.projects .project-links {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 12px !important;
+    flex-wrap: wrap !important;
+}
+.projects .project-links a {
+    width: auto !important;
+    flex: 0 0 auto !important;
+    padding: 10px 18px !important;
+}
+.profile-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* Keep About content full width so headings can centre correctly */
+.about .section-container {
+    width: 100%;
+}
+.about .section-label {
+    width: 100% !important;
+    text-align: center !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.project-image {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 0px;
+}
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+#projects > .section-container {
+  max-width: 1100px;
+  width: calc(100% - 48px);
+  margin: 0 auto;
+}
+/* =========================================
+   MOBILE RESPONSIVE DESIGN
+   ========================================= */
+@media (max-width: 768px) {
+    /* Whole website */
+    .portfolio {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .section-container {
+        width: 100%;
+        max-width: 100%;
+    }
+    /* =========================
+       MOBILE NAVIGATION
+       ========================= */
+    .navbar {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        padding: 20px 16px;
+        box-sizing: border-box;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo img {
+        width: 2400px;
+        max-width: 90%;
+        height: auto;
+    }
+    .navbar nav {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px 8px;
+        text-align: center;
+    }
+        .navbar nav a {
+            font-size: 13px;
+            white-space: nowrap;
+            border: 1px solid #0b5fa5;
+            border-radius: 8px;
+            padding: 8px 6px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.18);
+        }
+            .navbar nav a:hover {
+            background: #0b5fa5;
+            color: white;
+            border-color: #0b5fa5;
+            }
+    .cv-button {
+        margin: 4px auto 0;
+    }
+    /* =========================
+       MOBILE HERO
+       ========================= */
+   .hero {
+    flex-direction: column;
+    padding: 30px 7% 20px;
+}
+.hero-buttons a {
+    width: 165px;
+    box-sizing: border-box;
+    text-align: center;
+}
+    .hero-left,
+    .hero-right {
+        width: 100%;
+    }
+.hero-left {
+    text-align: center;
+    align-items: center;
+}
+.hero-left p {
+    text-align: center;
+}
+    .hero h1 {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+    .hero h2 {
+        font-size: 30px;
+        line-height: 1.25;
+    }
+    .hero-description {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .hero-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 18px 0 0 0 !important;
+    padding: 0 !important;
+    transform: none !important;
+    box-sizing: border-box;
+}
+.profile-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+    /* =========================
+       MOBILE PROJECTS
+       ========================= */
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    /* =========================
+       MOBILE EXPERIENCE
+       ========================= */
+    .experience-list {
+        grid-template-columns: 1fr;
+    }
+}
+/* Mobile About */
+.about .section-label {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.about h2 {
+    font-size: 26px;
+    line-height: 1.25;
+}
