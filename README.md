@@ -1,75 +1,55 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Kayode Aina — Portfolio
 
-Currently, two official plugins are available:
+Personal portfolio website showcasing my work and interests in **Software Development, Artificial Intelligence, Data Engineering, Cybersecurity, and Web Application Development**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Portfolio
 
-## React Compiler
+Visit the live website:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**https://kayode-aina-portfolio.vercel.app**
 
-## Expanding the ESLint configuration
+## About Me
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+I am a Software and Application Developer with a background in software development and technical communication. My interests span full-stack development, data engineering, artificial intelligence, cybersecurity, databases, and information systems.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+I enjoy developing practical solutions that combine software, structured information, and data-driven technologies to solve real-world problems.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Featured Projects
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Cybersecurity Vulnerability Search & Retrieval System
+A structured cybersecurity information retrieval system combining DITA XML and Natural Language Processing techniques, including TF-IDF and cosine similarity.
 
-```
+### AI-Powered Banking Loan Q&A Assistant
+A conversational AI assistant designed to answer banking loan-related questions using prompt engineering and AI-based interaction.
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+### Diabetes Screening Through Retinal Image Analysis
+A deep-learning application using Convolutional Neural Networks (CNN) and retinal image analysis to support diabetes screening.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Classic Gym Website
+A responsive single-page web application developed using Angular, TypeScript, HTML5, and CSS3.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Technologies
 
-```
+- **Languages:** Python, Java, C#, JavaScript, TypeScript, Go, C++
+- **Frontend:** React, Angular, HTML5, CSS3
+- **Backend:** Django, FastAPI, Spring Boot, .NET
+- **Databases:** PostgreSQL, MySQL, MongoDB
+- **AI & Data:** NLP, TF-IDF, Cosine Similarity, CNN, Machine Learning
+- **Tools:** Git, GitHub, Docker, Jupyter Notebook
+- **Deployment:** Vercel
+
+## Education
+
+- MSc Technical Communication — Munster Technological University
+- BSc (Hons) Software Development — Munster Technological University
+
+## Contact
+
+- **LinkedIn:** https://www.linkedin.com/in/kayodeaina/
+- **GitHub:** https://github.com/kayodeaina
+- **Portfolio:** https://kayode-aina-portfolio.vercel.app
+
+---
+
+© 2026 Kayode Aina
