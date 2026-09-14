@@ -404,18 +404,16 @@ function App() {
 
                 </div>
                     <div className="project-links">
-                      <a href="#" target="_blank" rel="noreferrer">
+                      <a href="https://github.com/kayodeaina/ai-banking-loan-assistant" target="_blank" rel="noreferrer">
                         View Project
                       </a>
 
-                      <a href="#" target="_blank" rel="noreferrer">
+                     <a href="https://github.com/kayodeaina/ai-banking-loan-assistant" target="_blank" rel="noreferrer">
                         GitHub
                       </a>
                     </div>
 
               </article>
-
-
               {/* ===============================
                   PROJECT 3
                   Diabetes Screening Using CNN
