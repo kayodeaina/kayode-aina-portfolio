@@ -25,8 +25,6 @@ function App() {
 
     /* Main wrapper for the entire portfolio */
     <div className="portfolio">
-
-
       {/* =====================================
           NAVIGATION BAR
           Displays the logo and navigation
@@ -38,8 +36,6 @@ function App() {
         <div className="logo">
           <img src={kayodeLogo} alt="Kayode Aina logo" />
         </div>
-
-
         {/* Navigation links.
             Each href connects to the id of
             a section elsewhere on the page. */}
@@ -67,7 +63,6 @@ function App() {
        <a href="/Kayode_Aina_CV.pdf" className="cv-button" download>
           Download CV
       </a>
-
       </header>
  {/* =========================================
     HOME / HERO SECTION
@@ -76,9 +71,7 @@ function App() {
     ========================================= */}
     <main>
       <section id="home" className="hero">
-
       <div className="hero-left">
-
     {/* Small introduction displayed above the name */}
     <p className="intro">Hello, I'm</p>
 
@@ -87,30 +80,25 @@ function App() {
 
     {/* Primary professional role/title */}
     <h2>Software Developer | AI & Data Engineering</h2>
-
     {/* Short professional summary explaining
         the main areas of technology interests */}
     <p className="hero-description">
       Building web, data, and intelligent applications with interests
       in cybersecurity, AI agents, and information systems.
     </p>
-
     {/* Call-to-action buttons.
         These links take visitors directly to
         Projects or Contact sections. */}
     <div className="hero-buttons">
-
             {/* Takes visitors to my Projects section */}
             <a href="#projects">View My Projects</a>
 
             {/* Takes visitors to my Contact section */}
             <a href="#contact">Contact Me</a>
-
-          </div> {/* closes hero-buttons */}
+         </div> {/* closes hero-buttons */}
           {/* End of hero-left div */}
           </div> {/* End of hero section */}
           <div className="hero-right">
-
           <div className="profile-circle">
             <img src={logo_image} alt="Kayode Aina" />
           </div>
@@ -122,15 +110,12 @@ function App() {
                 <a href="https://www.linkedin.com/in/kayodeaina/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
                   <FaLinkedin />
                 </a>
-
                 <a href="mailto:kayodeaina741@gmail.com" aria-label="Email">
                   <FaEnvelope />
                 </a>
         </div>
           </div>
-
   </section>
-
         {/* ===================================
             ABOUT SECTION
             Introduces my professional background,
@@ -155,7 +140,6 @@ function App() {
              full-stack development, data engineering, artificial intelligence,
              cybersecurity, databases, and information systems.
           </p>
-
           <p>
             I enjoy developing practical solutions that combine
              software engineering, structured information,
@@ -163,8 +147,6 @@ function App() {
           </p>
         </div>
       </section>
-
-  
         {/* ===================================
             SKILLS SECTION
             Presents my technical skills and
@@ -182,16 +164,12 @@ function App() {
             {/* Main heading for the Skills section */}
             <h2>Technical Skills & Technologies</h2>
             </div>
-
-
             {/* =================================
                 SKILLS GRID
                 Holds all skill cards and allows
                 CSS Grid to arrange them into columns
                 ================================= */}
             <div className="skills-grid">
-
-
               {/* ===============================
                   FRONTEND DEVELOPMENT
                   Technologies used to build
@@ -204,7 +182,6 @@ function App() {
                 </p>
               </div>
 
-
               {/* ===============================
                   BACKEND DEVELOPMENT
                   Technologies used for server-side
@@ -216,8 +193,6 @@ function App() {
                   Python, Django, FastAPI, Spring Boot, .NET, REST APIs
                 </p>
               </div>
-
-
               {/* ===============================
                   DATA & DATABASES
                   Technologies and concepts used
@@ -229,8 +204,6 @@ function App() {
                   SQL, PostgreSQL, MySQL, MongoDB, Data Processing, Data Engineering
                 </p>
               </div>
-
-
               {/* ===============================
                   CYBERSECURITY
                   Security-related knowledge
@@ -243,7 +216,6 @@ function App() {
                 </p>
               </div>
 
-
               {/* ===============================
                   AI & INFORMATION RETRIEVAL
                   AI, NLP and search technologies
@@ -255,8 +227,6 @@ function App() {
                  NLP, Machine Learning, CNN, TF-IDF, Cosine Similarity, AI Agents
                 </p>
               </div>
-
-
               {/* ===============================
                   INFORMATION TECHNOLOGIES
                   Structured content and information
@@ -344,10 +314,8 @@ function App() {
                   <span>Cybersecurity — security contingency planning, vulnerability analysis, and encryption</span>
                 </div>
                 <div className="project-links">
-                   <a href="https://github.com/kayodeaina/cybersecurity-dita-nlp" target="_blank" rel="noreferrer"
-                    View Project
-                   </a>
-                <a href="https://github.com/kayodeaina/cybersecurity-dita-nlp" target="_blank" rel="noreferrer">GitHub </a> 
+                   <a href="https://github.com/kayodeaina/cybersecurity-dita-nlp" target="_blank" rel="noreferrer">View Project</a>
+                   <a href="https://github.com/kayodeaina/cybersecurity-dita-nlp" target="_blank" rel="noreferrer">GitHub </a> 
                 </div>
               </article>
 
