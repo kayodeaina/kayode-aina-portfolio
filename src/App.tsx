@@ -419,14 +419,14 @@ function App() {
                   <span>Retinal Imaging — input image data for diabetes screening</span>
 
                 </div>
-                    <div className="project-links">
-                      <a href="#" target="_blank" rel="noreferrer">
-                        View Project
-                      </a>
-                      <a href="#" target="_blank" rel="noreferrer">
-                        GitHub
-                      </a>
-                    </div>
+                     <div className="project-links">
+                       <a href="https://github.com/kayodeaina/diabetes-retinal-image-screening" target="_blank" rel="noreferrer">
+                         View Project
+                       </a>
+                       <a href="https://github.com/kayodeaina/diabetes-retinal-image-screening" target="_blank" rel="noreferrer">
+                         GitHub
+                       </a>
+                  </div>
 
               </article>
 
