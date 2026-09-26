@@ -343,16 +343,12 @@ function App() {
                   <span>Cosine Similarity — document retrieval and ranking</span>
                   <span>Cybersecurity — security contingency planning, vulnerability analysis, and encryption</span>
                 </div>
-
                 <div className="project-links">
-                  <a href="#" target="_blank" rel="noreferrer">
+                   <a href="https://github.com/kayodeaina/cybersecurity-dita-nlp" target="_blank" rel="noreferrer"
                     View Project
-                  </a>
-
-                     <a href="https://github.com/kayodeaina/cybersecurity-dita-nlp" target="_blank" rel="noreferrer">GitHub </a>
-                  
+                   </a>
+                <a href="https://github.com/kayodeaina/cybersecurity-dita-nlp" target="_blank" rel="noreferrer">GitHub </a> 
                 </div>
-                
               </article>
 
                {/* ===============================
@@ -366,14 +362,10 @@ function App() {
                       alt="AI-Powered Banking Loan Question and Answer Assistant"
                     />
                   </div>
-
-
-
                 {/* Identifies the type of project */}
                 <p className="project-type">
                   MSc AI / Prompt Engineering
                 </p>
-
                 {/* Main title of Project 3 */}
                 <h3>
                   AI-Powered Banking Loan Question & Answer Assistant
