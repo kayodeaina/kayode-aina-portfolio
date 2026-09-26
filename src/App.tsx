@@ -477,18 +477,14 @@ function App() {
                 </div>
                       <div className="project-links">
                         <a
-                             href="https://github.com/kayodeaina/cybersecurity-dita-nlp"
+                             href="https://github.com/kayodeaina/classic-gym-website"
                              target="_blank"
                              rel="noreferrer"
                            >
                              View Project
                            </a>
-
                               <a
-                               href="https://github.com/kayodeaina/cybersecurity-dita-nlp"
-                               target="_blank"
-                               rel="noreferrer"
-                             >
+                               href="https://github.com/kayodeaina/classic-gym-website">
                                GitHub
                              </a>
                         </div>
